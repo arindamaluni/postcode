@@ -1,0 +1,19 @@
+https://stackoverflow.com/questions/32678325/how-can-i-import-bulk-data-from-a-csv-file-into-dynamodb
+JSON Transform
+https://www.npmjs.com/package/node-json-transform
+https://csv.js.org/transform/options/
+https://techsparx.com/nodejs/howto/csv-transformation.html
+CSV Parsing
+https://dev.to/isalevine/parsing-csv-files-in-node-js-with-fs-createreadstream-and-csv-parser-koi
+From Amazon - S3 to Lambda to DDB
+https://github.com/aws-samples/s3-to-lambda-patterns
+Youtube link for above
+https://www.youtube.com/playlist?list=PLJo-rJlep0EAY0nMNBv0MZ487l1tOFAjh
+Data generation lib
+https://www.npmjs.com/package/faker
+Serverless examples
+https://github.com/serverless/examples
+https://serverless-stack.com/chapters/configure-dynamodb-in-serverless.html
+Serverless case studies
+https://www.simform.com/serverless-aws-lambda-examples/
+https://www.simform.com/serverless-examples-aws-lambda-use-cases/
