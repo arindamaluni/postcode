@@ -1,0 +1,38 @@
+{
+  "Records": [
+    {
+      "eventVersion": "2.1",
+      "eventSource": "aws:s3",
+      "awsRegion": "us-east-1",
+      "eventTime": "2020-06-05T22:22:31.317Z",
+      "eventName": "ObjectCreated:Put",
+      "userIdentity": {
+        "principalId": "AWS:AIDAWUQC67F74C4E5GPUV"
+      },
+      "requestParameters": {
+        "sourceIPAddress": "2.101.178.166"
+      },
+      "responseElements": {
+        "x-amz-request-id": "41E07DB8CBAD9864",
+        "x-amz-id-2": "toRnZDesnrUyc8d4/3wm86o7YQN4eFuajmSrnekTiSqwBhni+9RrT2Oq2sRosDZYQ7OM6RwCMXAjLT1jZjCFfhdJuCPg3177j1fyEstC21M="
+      },
+      "s3": {
+        "s3SchemaVersion": "1.0",
+        "configurationId": "postcode-dev-postcodeDataUploader-60af9c4c9230acd8c32e15324d0f5384",
+        "bucket": {
+          "name": "aaluni-postcode-dev-source",
+          "ownerIdentity": {
+            "principalId": "A1O3AIUWATYBJG"
+          },
+          "arn": "arn:aws:s3:::aaluni-postcode-dev-source"
+        },
+        "object": {
+          "key": "test.csv",
+          "size": 11502,
+          "eTag": "632fcf0d301804e09e5ba2c91435ae81",
+          "sequencer": "005EDAC5A825E744B9"
+        }
+      }
+    }
+  ]
+}

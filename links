@@ -1,3 +1,5 @@
+AWS Login Console
+https://456346499455.signin.aws.amazon.com/console
 https://stackoverflow.com/questions/32678325/how-can-i-import-bulk-data-from-a-csv-file-into-dynamodb
 JSON Transform
 https://www.npmjs.com/package/node-json-transform
@@ -17,3 +19,8 @@ https://serverless-stack.com/chapters/configure-dynamodb-in-serverless.html
 Serverless case studies
 https://www.simform.com/serverless-aws-lambda-examples/
 https://www.simform.com/serverless-examples-aws-lambda-use-cases/
+Best practices
+https://theburningmonk.com/2019/03/just-how-expensive-is-the-full-aws-sdk/
+
+serverless invoke local -f postcodeDataUploader -e SOURCE_BUCKET_NAME=aaluni-postcode-dev-source -e DESTINATION_BUCKET_NAME=aaluni-postcode-dev-processed -e TABLE_NAME=aaluni-postcode-dev-uk_postcodes -e BATCH_SIZE=2 -p ./s3Event.json
+
